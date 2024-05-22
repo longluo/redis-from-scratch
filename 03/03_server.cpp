@@ -9,6 +9,19 @@
 #include <netinet/ip.h>
 
 
+/*
+
+Socket Programming
+
+
+$ ./server
+client says: hello
+
+$ ./client
+server says: world
+
+*/
+
 static void msg(const char *msg) {
     fprintf(stderr, "%s\n", msg);
 }

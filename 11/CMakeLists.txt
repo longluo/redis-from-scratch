@@ -14,6 +14,5 @@ add_executable(client 11_client.cpp)
 add_executable(server 11_server.cpp hashtable.cpp avl.cpp zset.cpp)
 
 # Add executable for server
-add_executable(test_offset test_offset.cpp avl.cpp)
-
+#add_executable(test_offset test_offset.cpp avl.cpp)
 
